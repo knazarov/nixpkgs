@@ -12792,6 +12792,8 @@ self: super: with self; {
 
   testscenarios = callPackage ../development/python-modules/testscenarios { };
 
+  testslide = callPackage ../development/python-modules/testslide { };
+
   testtools = callPackage ../development/python-modules/testtools { };
 
   test-tube = callPackage ../development/python-modules/test-tube { };
